@@ -1,0 +1,100 @@
+      Date: 06/07/2023      Time: 16:44:20  
+
+     ___________________________________________________
+     |                                                 |
+     |  Livermore  Software  Technology  Corporation   |
+     |                                                 |
+     |  7374 Las Positas Road                          |
+     |  Livermore, CA 94551                            |
+     |  Tel: (925) 449-2500  Fax: (925) 449-2507       |
+     |  www.lstc.com                                   |
+     |_________________________________________________|
+     |                                                 |
+     |  LS-DYNA, A Program for Nonlinear Dynamic       |
+     |  Analysis of Structures in Three Dimensions     |
+     |  Version : smp s R11.1.0   Date: 07/27/2019     |
+     |  Revision: 139235          Time: 10:15:41       |
+     |                                                 |
+     |  Features enabled in this version:              |
+     |    Shared Memory Parallel                       |
+     |    FFTW (multi-dimensional FFTW Library)        |
+     |    Interactive Graphics                         |
+     |    ANSYS Database format                        |
+     |    ANSYS License (ANSYS150)                     |
+     |    MADYMO indirect coupling (7.2 or higher)     |
+     |    BigID  option                                |
+     |                                                 |
+     |  Licensed to:                                   |
+     |                                                 |
+     |  Platform   : WINDOWS X64 (SSE2)                |
+     |  OS Level   : Windows 7/8/10 & Srv 2008/2012 R2 |
+     |  Compiler   : Intel Fortran XE 2016 MSVC++ 2010 |
+     |  Hostname   : LAPTOP-2OEF07F1                   |
+     |  Precision  : Single precision (I4R4)           |
+     |  SVN Version: 139235                            |
+     |                                                 |
+     |  Unauthorized use infringes LSTC copyrights     |
+     |_________________________________________________|
+
+
+ Input file: C:\Users\shaws\OneDrive\Desktop\LS-DYNA\Slab2.k                                 
+
+ The native file format       : 32-bit small endian
+ Memory size from default     :    20000000
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LSTC nor the authors assume any responsibility for *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LSTC endeavors to make the LS-DYNA code as complete,       *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LSTC through your site focus.               *
+ *                                                            *
+ * Copyright (C) 1990-2018                                    *
+ * by Livermore Software Technology Corp. (LSTC)              *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   06/07/23 16:44:20
+ allocating  memory to    20000000 d         600 beginning of keyword reader
+ expanding   memory to    86910464 d    44671848  
+ 
+ *** Error 70021 (OTH+21)
+     Memory is set 66910464 words short
+     memory size 20000000
+     Increase the memory size by one of the following
+     where #### is the number of words requested:
+       1) On the command line set - memory=####
+       2) In the input file define memory with *KEYWORD
+       i.e., *KEYWORD #### or *KEYWORD memory=####
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 1.1800E+02  100.00     1.1876E+02   99.90
+  Initialization ....... 0.0000E+00    0.00     1.1500E-01    0.10
+  ----------------------------------------------------------------
+  T o t a l s            1.1800E+02  100.00     1.1888E+02  100.00
+
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =       118 seconds (   0 hours  1 minutes 58 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
+
+ Number of CPU's    0
+ NLQ used/max     136/  136
+ Start time   06/07/2023 16:44:20  
+ End time     06/07/2023 16:46:18  
+ Elapsed time     118 seconds for       0 cycles using  0 SMP thread 
+             (      0 hour   1 minute  58 seconds)
+
+ E r r o r   t e r m i n a t i o n                             06/07/23 16:46:18
