@@ -29,5 +29,5 @@ def segment_image(image_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-image_path = 'crack5.jpg'
+image_path = '1.jpeg'
 segment_image(image_path)
